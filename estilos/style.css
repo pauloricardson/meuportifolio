@@ -137,11 +137,11 @@ article .video-container iframe {
 .skill-container {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 10px;
+  gap: 30px;
   margin-bottom: 20px;
 }
 
-.skill-container .item {
+.skill-container .info {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -168,4 +168,10 @@ article .video-container iframe {
   background-color: var(--destaque-inverso);
   height: 100%;
   border-radius: 4px;
+}
+
+@media screen and (min-width: 768px) {
+  .skill-container {
+    grid-template-columns: 1fr 1fr;
+  }
 }
