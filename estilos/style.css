@@ -8,6 +8,10 @@
   --fundo-card
 */
 
+.ico {
+  background-color: white;
+}
+
 body {
   background-color: aqua;
 }
