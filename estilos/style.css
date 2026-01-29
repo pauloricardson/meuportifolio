@@ -6,7 +6,7 @@
 }
 
 :root {
-  --fundo-principal: #ffdcd9;
+  --fundo-principal: #ffe6e4;
   --texto: #0D0D0D;
   --texto-inverso: #ffffff;
   --destaque: #D94F30;
@@ -168,6 +168,36 @@ article .video-container iframe {
   background-color: var(--destaque-inverso);
   height: 100%;
   border-radius: 4px;
+}
+
+#formacao-container {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 30px;
+}
+
+#formacao-container .curso {
+  background-color: var(--fundo-principal);
+  border-radius: 8px;
+  border-left: 5px solid var(--destaque-inverso);
+  padding: 10px;
+  transition: border-width 0.3s, border-color 0.5s;
+}
+
+#formacao-container .curso:hover {
+  border-left-width:  15px;
+  cursor: pointer;
+  border-color: var(--destaque);
+}
+
+#formacao-container .periodo {
+  font-size: 0.8em;
+  color: var(--texto);
+}
+
+#formacao-container .instituicao {
+  color: var(--destaque-inverso);
+  font-size: 1.1em;
 }
 
 @media screen and (min-width: 768px) {
