@@ -6,12 +6,12 @@
 }
 
 :root {
-  --fundo-principal: #f5f5f5;
+  --fundo-principal: #ffdcd9;
   --texto: #0D0D0D;
   --texto-inverso: #ffffff;
   --destaque: #D94F30;
   --destaque-inverso: #F2911B;
-  --fundo-card: #ffdcd9;
+  --fundo-card: #ffff;
 }
 
 body {
