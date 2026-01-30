@@ -14,6 +14,15 @@
   --fundo-card: #ffff;
 }
 
+body.escuro {
+  --fundo-principal: #140e0e;
+  --texto: #fffcfc;
+  --texto-inverso: #ffffff;
+  --destaque: #fc7a5d;
+  --destaque-inverso: #ffb862;
+  --fundo-card: #423535;
+}
+
 body {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   line-height: 1.5em;
@@ -259,6 +268,8 @@ footer a:hover {
 @media screen and (min-width: 768px) {
 
   main {
+    max-width: 1000px;
+    place-self: center;
     grid-template-columns: auto 300px 1fr auto;
   }
 
