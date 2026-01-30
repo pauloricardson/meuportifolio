@@ -21,6 +21,8 @@ body.escuro {
   --destaque: #fc7a5d;
   --destaque-inverso: #ffb862;
   --fundo-card: #423535;
+
+  transition: background-color 0.5s, color 0.5s;
 }
 
 body {
